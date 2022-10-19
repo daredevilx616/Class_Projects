@@ -14,27 +14,21 @@ public class Num2WordsRecur {
 		Scanner SCinput = new Scanner(System.in);
 		System.out.println("Please type an integer number(max upto 9 digits): ");
 		try {
-			// read the number
 			number = SCinput.nextInt();
 			System.out.print("Number in words: " + numToWord(number));
 		} 
 		catch (Exception e) {
 			System.out.println("Please enter a valid number");
 		}
-		// close the reader
 		SCinput.close();
 
 	}
 
 	private static String numToWord(int num) {
-		// variable to hold string representation of number 
 		String words = "";
 		if (num == 0) {
 			return "zero";
-		}
-
-		// add minus before conversion if the number is less than 0
-		if (num < 0) { 
+		} if (num < 0) { 
 			String number = "" + num;
 			number = number.substring(1);
 			return "minus " +numToWord(Integer.parseInt(number));
@@ -42,30 +36,16 @@ public class Num2WordsRecur {
 		} if(num/1000000 > 0) {
             return numToWord(num/1000000) + " million " + numToWord(num%1000000);
 
-		}if(num/1000 > 0) {
+		} if(num/1000 > 0) {
             return numToWord(num/1000) + " thousand " + numToWord(num%1000);
 
 		} if(num/100 > 0) {
             return numToWord(num/100) + " hundred " + numToWord(num%100);
 
-		}
-		
-		// First: check if number is divisible by 1 million (use modulo %)
-		//          hint: if(num/1000000 > 0) ...
-		
-		// Secondly: check if number is divisible by 1 thousand 
-		//          hint: if(num/1000 > 0) ...
-		
-		// Thirdly: check if number is divisible by 1 hundred
-		//          hint: if(num/100 > 0) ...
-
-		if (num > 0) {
-			// check if number is within teens
+		} if (num > 0) {
 			if (num < 20) { 
-				// fetch the appropriate value from unit array
 				words += unitsArray[num];
 			} else { 
-				// fetch the appropriate value from tens array
 				words += tensArray[num/10]; 
 				if ((num % 10) > 0) {
 					words += "-" + unitsArray[num%10];
