@@ -4,7 +4,7 @@
  * Description:
  * 	A game that produces a random number, and the user has to figure that number out given the hints as he plays the game.
  * Input:
- *				Player guesses a random number.
+ *	Player guesses a random number.
  * Output:
  *				The game gives hints if the number enterd is large, or small and tells which number is in right place.
  *              
