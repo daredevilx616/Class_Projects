@@ -1,18 +1,11 @@
 
 /*
- *      hmwk2_mnasir3.c
  *
- *           Muhammad Abdullah Nasir
- *           Account: mnasir3
- *           CSc 3320
- *           Program #2
- *           Due date: 10/23/22
- *
- *           Description:
- *				A game that produces a random number, and the user has to figure that number out given the hints as he plays the game.
- *			Input:
+ * Description:
+ * 	A game that produces a random number, and the user has to figure that number out given the hints as he plays the game.
+ * Input:
  *				Player guesses a random number.
- *          Output:
+ * Output:
  *				The game gives hints if the number enterd is large, or small and tells which number is in right place.
  *              
  */
