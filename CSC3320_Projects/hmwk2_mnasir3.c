@@ -6,7 +6,7 @@
  * Input:
  *	Player guesses a random number.
  * Output:
- *				The game gives hints if the number enterd is large, or small and tells which number is in right place.
+ *	The game gives hints if the number enterd is large, or small and tells which number is in right place.
  *              
  */
 
