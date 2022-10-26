@@ -2,7 +2,7 @@
 /*
  *
  * Description:
- * A game that produces a random number, and the user has to figure that number out given the hints as he plays the game.
+ * 	A game that produces a random number, and the user has to figure that number out given the hints as he plays the game.
  * Input:
  *	Player guesses a random number.
  * Output:
