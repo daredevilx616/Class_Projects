@@ -13,8 +13,8 @@ class Node {
 		data = item;
 		left = null;
 		right = null;
-	//}
-//}
+	}
+}
 public class Lab11 {
 	Node root;
 	public boolean checkTrueBST(Node root,long low, long high){
