@@ -5,14 +5,14 @@
  */
 
 /* Class to represent Tree node */
-//class Node {
-	//int data;
-	//Node left, right;
-	//public Node(int item)
-	//{
-		//data = item;
-		//left = null;
-		//right = null;
+class Node {
+	int data;
+	Node left, right;
+	public Node(int item)
+	{
+		data = item;
+		left = null;
+		right = null;
 	//}
 //}
 public class Lab11 {
