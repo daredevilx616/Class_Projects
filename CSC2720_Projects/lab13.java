@@ -54,13 +54,3 @@ public class lab13 {
 		}
 	}
 }
-
-/*
- * Test Cases
- * What happens if a user enters values for graph and there is an illegal number found?
- * In this case, we can add a statement to print that the user entered a wrong number for binary data
- * 
- * if(g.data != to a number) { //can code the method later, it is just for an overview of the logic
- * 		System.out.println("Error: no or invalid number found, enter a valid number");
- * }
- */
