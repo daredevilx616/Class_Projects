@@ -1,5 +1,3 @@
-//This is Muhammad Abdullah Nasir CSC 2720 Lab 13
-
 /* Time Complexity for this program is O(V + E)
  * Space Complexity for this program is O(V)
  */
